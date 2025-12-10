@@ -27,8 +27,12 @@ Select the checklist that matches your downstream task.
 
 We provide Python scripts in the [`utils/`](./utils/) directory to help you automatically pass these checks.
 
-* `check_spatial_leakage.py`: Verify if your Test Set is geographically too close to your Train Set.
-* `check_crs_alignment.py`: Ensure all rasters and vectors share the same projection.
+### 📊 Export to Excel (Project Tracker)
+Turn these markdown checklists into a professional Excel spreadsheet for project management or delivery.
+```bash
+python utils/generate_excel.py
+```
+*Output: `GeoAI_Checklist.xlsx` with columns for Risk, Action, Tools, and Status.*
 
 ## 🤝 Contributing
 
